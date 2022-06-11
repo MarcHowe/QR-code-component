@@ -1,0 +1,57 @@
+/* Set font to Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Set the font family, sizes and text alignment */
+h1, p {
+    font-family: 'Outfit', sans-serif ;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.27rem ;
+}
+
+p {
+    font-size: 0.9375rem;
+}
+
+body {
+    background-color:#D5E1EF;
+    margin: 0;
+}
+
+main {
+    min-width: 375px;
+    height: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 265px;
+    /* padding-top: 15px; */
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+}
+
+.vertical_box {
+
+}
+
+.QR {
+border-radius: 8px;
+width: 265px;
+height: auto;
+}
+
+.description {
+color: hsl(220, 15%, 55%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
