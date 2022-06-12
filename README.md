@@ -18,12 +18,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot](.images/screenshot.jpg)
+![Screenshot](/images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://qr-code-component-3jj.pages.dev/)
+- Solution URL: (https://www.frontendmentor.io/solutions/qr-code-component-with-flexbox-ZzQ5V4lGL2)
+- Live Site URL: (https://qr-code-component-3jj.pages.dev/)
 
 ## My process
 
