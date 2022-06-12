@@ -45,13 +45,14 @@ body {
  border: 1px solid red;
 } */
 
-/* .outside_container{
-    margin: 0;
+ .outside_container{
+   /* margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-} */
+    transform: translateY(-50%); */
+       padding: 70px 0;
+} 
 
 .container {
     display: flex;
@@ -63,7 +64,7 @@ body {
     border-radius: 15px;
     padding: 15px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 0%;
 }
 
 .QR {
