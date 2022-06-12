@@ -54,7 +54,7 @@ I'll immediately start a new project with a little more complexity, using only H
 ## Author
 
 - Website - [Marc Howe](https://mjhcloud.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MarcHowe)
-- Twitter - [@yourusername](https://www.twitter.com/marchowe83)
+- Frontend Mentor - [@MarcHowe](https://www.frontendmentor.io/profile/MarcHowe)
+- Twitter - [@marchowe83](https://www.twitter.com/marchowe83)
 
 
