@@ -8,77 +8,66 @@
 /* css custom properties */
 :root {
     --main-bg-color:#D5E1EF;
-}
-* {
-    border: 1px solid red ;
-}
+    --card-bg-color:#FFF;
+    --card-and-image-width:256px;
+    --font-family: 'Outfit', sans-serif ;
+    --h1-font-size: 1.27rem;
+    --p-font-size: 0.9375rem;
+    --p-color: hsl(220, 15%, 55%);
 
-body {
-    /* position: absolute;
-    margin:0;
-    top: 50%;
-    transform: translateY(-50%);
-    transform: translateX(50%); */
 }
 
 /* Set the font family, sizes and text alignment */
 h1, p {
-    font-family: 'Outfit', sans-serif ;
+    font-family: var(--font-family);
     text-align: center;
 }
 
 h1 {
-    font-size: 1.27rem ;
+    font-size: var(--h1-font-size);
 }
 
 p {
-    font-size: 0.9375rem;
+    font-size: var(--p-font-size);
+    color: var(--p-color);
 }
 
 body {
-    /* background-color:#D5E1EF; */
     background-color: var(--main-bg-color);
-    margin-top: 30%;
 }
 
-main {
-    
-    
-}
+/* Tried and failed code to center the entire card vertically */
+
+/* main {
+ height: 500px;
+ position: relative;
+ margin: auto;
+ border: 1px solid red;
+} */
+
+/* .outside_container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
 
 .container {
-    /* position: absolute;
-    margin:0;
-    top: 50%;
-    transform: translateY(-50%); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    width: 265px;
+    background-color: var(--card-bg-color);
+    width: var(--card-and-image-width);
     border-radius: 15px;
     padding: 15px;
     margin: auto;
-}
-
-.vertical_box {
-flex: 1 1 auto;
-}
-
-.vertical_box_padding {
-    min-height:5rem;
+    margin-top: 10%;
 }
 
 .QR {
 border-radius: 8px;
-width: 265px;
+width: var(--card-and-image-width);
 height: auto;
 }
-
-.description {
-color: hsl(220, 15%, 55%);
-}
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
