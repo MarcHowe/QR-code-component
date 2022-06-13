@@ -29,7 +29,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I just completed another FrontEnd Mentor Newbie challenge and using the previously discovered information about Flexbox, I visually identified the sections that would be needed to create a vertical flexbox. That would be the container with radial corners, QR code image, heading and a paragraph. I also started with a "mobile-first" approach, which was a lesson from before. 
 
-To begin, I reviewed the mobile and desktop images and the size of the QR code image in each, both were the same and the look was the same on either device, so I decided the page did not need to be 'responsive'. I started work on the html structure, before styling the css. I started with styling the elemnents I knew then reviewed guides on CSS Flexbox, applying radial corners to images and borders, then finally positioning the card vertically, which I did not succeeed at and would welcome feedback as to why! 
+To begin, I reviewed the mobile and desktop images and the size of the QR code image in each, both were the same and the look was the same on either device, so I decided the page did not need to be 'responsive'. I started work on the html structure, before styling the css. I started with styling the elemnents I knew then reviewed guides on CSS Flexbox, applying radial corners to images and borders, then finally positioning the card vertically, which I was able to acheive with the help of my fellow FrontEnd Mentor peers, acknowledged below! 
 
 ### Built with
 
@@ -57,4 +57,8 @@ I'll immediately start a new project with a little more complexity, using only H
 - Frontend Mentor - [@MarcHowe](https://www.frontendmentor.io/profile/MarcHowe)
 - Twitter - [@marchowe83](https://www.twitter.com/marchowe83)
 
+## Acknowledgements
 
+Thank you to [@Renaisani](https://www.frontendmentor.io/profile/Renaisani) and [@SNINEH](https://www.frontendmentor.io/profile/SNINEH) for your help directing me to set the height: 100vh and flex display properties on the containing div, which was the solution for centering the card vertically. 
+
+A very special thank you to [jonathan401](https://www.frontendmentor.io/profile/jonathan401) for your detailed feedback on not only the solution above, but my code (which I gratefully took and applied!) and for the awesome tutorial on freeCodeCamp's [Learn CSS Basics by Building a Card Component](https://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/) - Thank you! 
